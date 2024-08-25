@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    background-image: url(./bg-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 120px;
+}
+
+
+
+.container{
+    width: 1110px;
+    margin: auto;   
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 46px;
+}
+
+ul li a{
+    color: #FFFFFF;
+}
+
+ul{
+    display: flex;
+    gap: 24px;
+}
+
+.bmw{
+    color: gray;
+   
+}
+
+.mers{
+    color: white;
+    
+}
+
+.vich{
+    display: flex;
+    gap: 10px;
+}
+
+.no{
+    color: white;
+    font-weight: 600;
+    font-size: 48px;
+    margin-top: 190px;
+    text-align: center;
+}
+
+.btn{
+    width: 272px;
+    height: 72px;
+    background-color: #7B61FF;
+    font-size: large;
+    border-radius: 12px;
+    color: white;
+    border: none;
+}
+
+.go{
+    text-align: center;
+    margin-top: 32px;
+}
+
+
+.main-item {
+    width: 1140px;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 50px;
+    border-radius: 8px;
+    margin-top: 217px;
+    border: none;
+}
+
+.explore{
+    font-family: "Poppins";
+    display: flex;
+    align-items: center;
+}
+
+.actives {
+    font-family: "Poppins";
+    display: flex;
+    align-items: center;
+}
+
+.date {
+    font-family: "Poppins";
+    display: flex;
+    align-items: center;
+}
+
+.guests {
+    font-family: "Poppins";
+    display: flex;
+    align-items: center;
+}
+
+.btn-tem {
+    width: 60px;
+    height: 60px;
+    border-radius: 6px;
+    background-color: #7B61FF;
+}
+
+.nul{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    margin-top: 64px;
+    border: none;
+}
+
+.btn1{
+    width: 105px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+}
+
+.mix{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.null{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    margin-top: 64px;
+      
+}
